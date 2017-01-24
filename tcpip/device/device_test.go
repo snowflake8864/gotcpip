@@ -2,11 +2,11 @@ package device
 
 import (
 	//	"flag"
-	"github/snowflake8864/libs/rbtree"
+	"github.com/snowflake8864/libs/rbtree"
 	"log"
 	"time"
 	//"tcpip/net/ethernet"
-	"github/snowflake8864/gotcpip/constant"
+	"github.com/snowflake8864/gotcpip/constant"
 	"testing"
 	//p "public"
 )
@@ -16,7 +16,7 @@ func TestRecive(t *testing.T) {
 	rbtree.InitRBtreeMemPool()
 	dev := new(ZBDevice)
 	mac := []byte{00, 0x1c, 0x42, 0xe3, 0x6b, 0x8d}
-	err := DeviceInit(dev, "eth0", mac)
+	err := DeviceInit(dev, "en0", mac)
 	if err != nil {
 		t.Errorf("device>  init device failed")
 	}
