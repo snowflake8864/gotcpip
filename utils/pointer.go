@@ -1,7 +1,7 @@
 package utils
 
 import (
-	p "public"
+	p "github.com/snowflake8864/libs/public"
 	"reflect"
 	"unsafe"
 )
