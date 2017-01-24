@@ -11,7 +11,7 @@ import (
 	P "github.com/snowflake8864/libs/public"
 	"log"
 	//	"tcpip/net/protocol"
-	"github.com/snowflake8864/gotcpip/skb"
+	"github.com/snowflake8864/gotcpip/tcpip/skb"
 	"github.com/snowflake8864/libs/rbtree"
 	//	"tcpip/utils"
 	"time"
